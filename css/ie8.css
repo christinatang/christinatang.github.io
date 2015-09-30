@@ -7,9 +7,9 @@
 /* Basic */
 
 	body {
-		background-image: url("images/bg.jpg");
+		background-image: url("http://christinatang.github.io/css/images/bg.jpg");
 		background-size: cover;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		-ms-behavior: url("http://christinatang.github.io/assets/javascripts/ie/backgroundsize.min.htc");
 	}
 
 /* Section/Article */
