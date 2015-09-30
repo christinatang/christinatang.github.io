@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1515,6 +1516,8 @@
 					#nav a:active {
 						opacity: 1.0;
 					}
+
+
 
 					#nav a span {
 						display: none;
