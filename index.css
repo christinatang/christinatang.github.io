@@ -1,0 +1,117 @@
+/*
+    Name: Christina Tang
+    Date: October 10, 2018
+    Section: CSE 154 AK
+
+    This is index.css file for my portfolio site to give its pages
+    and content the same look and feel
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html {
+    background-color: #000000;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/trees_bg.JPG");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header, footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+header img, footer img {
+    border-radius: 100px;
+}
+
+footer img {
+    width: 50px;
+}
+
+header img {
+    display: block;
+    margin: 180px auto 0px auto;
+    width: 200px;
+    border: 2px solid white;
+}
+
+header h1 {
+    margin-bottom: auto;
+    font-size: 50px;
+}
+
+header h2 {
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    float: left;
+}
+
+main {
+    width: 85%;
+    align-self: center;
+    background-color: rgb(255, 254, 235);
+    padding: 20px 40px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h3 {
+    font-size: 14px;
+}
+
+#education, #employment, #community {
+    display: flex;
+    padding: 10px 0px;
+}
+
+#education {
+    flex-direction: column;
+}
+
+#community {
+    flex-direction: row;
+}
+
+#employment {
+    flex-direction: row-reverse;
+    background-color: rgb(255, 253, 225)
+}
+
+#community img {
+    float: right;
+}
+
+.img-container img {
+    border-radius: 50px;
+    padding: 30px 30px 10px 30px;
+    width: 400px;
+}
+
+blockquote {
+    font-style: italic;
+}

@@ -1,81 +1,117 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Author: Christina Tang 
+
+    This is the index.html page for my portfolio. It has information
+    about my education, employment, and leadership
 -->
-<html>
-	<head>
-		<title>Christina Tang</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="https://christinatang.github.io/layout/assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body id="top">
 
-		<!-- Header -->
-			<header id="header">
-				<a href="#" class="image avatar"><img src="https://christinatang.github.io/rs/000.jpg" alt="" /></a>
-				<h1><strong>Christina Tang</strong><br>
-				</a></h1>
-				tangckt(at)uw.edu<br>
-			</header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link type="text/css" href="index.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
 
-		<!-- Main -->
-			<div id="main">
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/christinatang">Github</a></li>
+                <li><a href="past.html">Old Things</a></li>
+            </ul>
+        </nav>
+        <img src="images/blanca_lake.jpg" alt="blanca lake">
+        <h1>Christina Tang</h1>
+        <h2>electrical engineering student // aspiring software developer</h2>
+    </header>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Hello!</h2>
-						</header>
-						<p>
-						It's my website. I made it to play with web development and Git.
-						
-						<br>
-						<br>I was born and raised within the Puget Sound area.<br>
-						<br>
-						<h2>Quick Facts</h2>
-						Electrical Engineering, Embedded Systems concentration<br>
-						University of Washington, Seattle<br>
-						3.5 cumulative GPA<br>
-						Graduation: June 2019<br>
-						<br>
+    <main>
+        <div id="education">
+            <section>
+                <h2>Education</h2>
+                <h3>University of Washington, 3.5 GPA</h3>
+                <p>
+                    I study EE because I wanted to work closer to the machine. 
+                    Most of my courses are in the embedded systems concentration. 
+                    We do a lot of work in Verilog, C, and some MATLAB.
+                </p>
+                <div class="img-container">
+                    <img src="images/connect_4.JPG" alt="connect 4 on FPGA">
+                </div>
+                <p>
+                    Connect FPGA is a Connect 4 game on FPGA. I worked on developing 
+                    and testing the UART communication modules to enable multi-player 
+                    with two FPGAs (not pictured). I also did the hardware design 
+                    and implementation for handling player input. 
+                </p>
+            </section>
+            <blockquote>
+                <p>
+                    "Connect 4 has many different names as it’s been played for 
+                    many decades. The goal of the game is to place 4 pieces in a row." <br>
+                    - <cite>EE 371 Final Lab Report</cite>
+                </p>
+            </blockquote>   
+        </div>
+        
+        <div id="employment">
+            <section>
+                <h2>Employment</h2>
+                <h3>T-Mobile</h3>
+                <p>
+                    For the past year, I have interned at T-Mobile on the 
+                    Corporate Information Security team and Technology Foundation team. 
+                    My work includes:
+                </p>
+                <ul>
+                    <li>Administrative management tool for cloud instances</li>
+                    <li>Custom JavaScript agile dashboards</li>
+                    <li>Educational resources for git rebase, squash, and cherry-pick</li>
+                    <li>Git hooks to support new development practices</li>
+                </ul>
+                <p>
+                    These projects don't make good photos :)
+                </p>
+            </section>
+            <div class="img-container">
+                <img src="images/t-mobile.jpg" alt="intern event at t-mobile">
+            </div>
+        </div>
+        
+        <div id="community">
+            <section>
+                <h2>Community</h2>
+                <h3>Leadership</h3>
+                <p>
+                    For two years, I served on the executive cabinet of Chi Sigma 
+                    Alpha, an Asian-interest sorority under United Greek Council. 
+                </p>
+                <p>
+                    We were established at UW Seattle in 2002. 
+                </p>
+                <p>
+                    During my leadership, I mitigated and resolved conflicts 
+                    unique to multicultural greek life. I had to make decisions 
+                    around standardizing new member education, developing new fair 
+                    rules and fines that reflect and adapt to our needs, 
+                    solving interpersonal conflicts without bias, 
+                    and keeping positive greek community relations. As a result, our 
+                    house has doubled over from 13 to 45 sisters!
+                </p>
+            </section>
+            <div class="img-container">
+                <img src="images/chisigs.jpg" alt="chi sigma alpha spring 17">
+            </div>
+        </div>
+    </main>
 
-						</p>
-						<ul class="actions">
-							<li>
-
-							
-							<a href="https://christinatang.github.io/about.html" class="button">Blast to the past!</a>
-						</li>
-						</ul>
-
-					</section>
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-
-					<li><a href="https://github.com/christinatang" class="icon fa-github"><span class="label">Github</span></a></li>
-
-					<li><a href="mailto:tangckt@uw.edu?Subject=Hello" target="_top" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: HTML5 UP</li>
-				</ul>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer>
+        <p>
+            ¯\_(ツ)_/¯ | All images and text on this page © 2018 Christina Tang
+        </p>
+    </footer>
+</body>
 </html>
