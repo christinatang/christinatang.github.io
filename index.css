@@ -84,6 +84,7 @@ section h3 {
 
 #education, #employment, #community {
     display: flex;
+    justify-content: space-between;
     padding: 10px 0px;
 }
 
@@ -98,7 +99,7 @@ section h3 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 30px 100px 0px 100px;
 }
 
