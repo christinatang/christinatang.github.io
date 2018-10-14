@@ -1,7 +1,5 @@
 /*
-    Name: Christina Tang
-    Date: October 10, 2018
-    Section: CSE 154 AK
+    Author: Christina Tang
 
     This is index.css file for my portfolio site to give its pages
     and content the same look and feel
@@ -16,8 +14,7 @@ html {
 
 body {
     font-family: "Raleway", sans-serif;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-image: url("images/trees_bg.JPG");
@@ -41,7 +38,7 @@ footer img {
 
 header img {
     display: block;
-    margin: 180px auto 0px auto;
+    margin: 80px auto 0px auto;
     width: 200px;
     border: 2px solid white;
 }
@@ -58,6 +55,7 @@ header h2 {
 
 nav ul {
     list-style-type: none;
+    padding-bottom: 100px;
 }
 
 nav a {
@@ -89,29 +87,26 @@ section h3 {
     padding: 10px 0px;
 }
 
-#education {
-    flex-direction: column;
-}
-
-#community {
-    flex-direction: row;
-}
-
-#employment {
-    flex-direction: row-reverse;
-    background-color: rgb(255, 253, 225)
-}
-
-#community img {
-    float: right;
-}
-
 .img-container img {
     border-radius: 50px;
     padding: 30px 30px 10px 30px;
     width: 400px;
+    float: right;
 }
 
-blockquote {
-    font-style: italic;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    padding: 30px 100px 0px 100px;
+}
+
+.captioned-photo img {
+    border-radius: 50px;
+    width: 350px;
+}
+
+.captioned-photo {
+    padding: 10px 50px;
 }
