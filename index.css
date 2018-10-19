@@ -74,6 +74,10 @@ main {
     padding: 20px 40px;
 }
 
+#theCanvas {
+    align-self: center;
+}
+
 section {
     padding: 20px;
 }

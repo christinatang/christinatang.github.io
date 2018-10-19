@@ -6,6 +6,7 @@ float rate = 10;
 
 
 void setup() {
+  size(575, 480);
   strokeWeight(5);
   smooth();
   background(0);
