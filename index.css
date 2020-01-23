@@ -92,6 +92,10 @@ section h3 {
     padding: 10px 0px;
 }
 
+#community {
+    display: none;
+}
+
 .img-container img {
     border-radius: 50px;
     padding: 30px 30px 10px 30px;
