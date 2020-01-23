@@ -68,7 +68,7 @@ nav a {
 }
 
 main {
-    width: 85%;
+    width: 75%;
     align-self: center;
     background-color: rgb(255, 254, 235);
     padding: 20px 40px;
@@ -86,7 +86,7 @@ section h3 {
     font-size: 14px;
 }
 
-#education, #employment, #community {
+#education, #employment, #fpga, #capstone, #webdev, #writing {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
